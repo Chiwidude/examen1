@@ -1,5 +1,8 @@
 package gt.edu.url.examen1.impl;
 
+import gt.edu.url.examen1.api.AlgoritmoChud;
+import gt.edu.url.examen1.api.ReporteroTenis;
+
 /**
  *
  * @author tuxtor
@@ -7,7 +10,12 @@ package gt.edu.url.examen1.impl;
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("Examen 2");
+       AlgoritmoChud v1 = new AlgoritmoChud();
+       
+       System.out.println(v1.calcularPi(1));
+       
+      
+       
     }
     
 }
